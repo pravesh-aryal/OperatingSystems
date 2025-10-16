@@ -1,0 +1,15 @@
+a.out
+buffer.c
+common.h
+exec.c
+execl.c
+exists.txt
+fork.c
+mem.c
+newfile.txt
+nonexists.txt
+notes
+popen.c
+snippets.c
+test.c
+zombie.c

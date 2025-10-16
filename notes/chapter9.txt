@@ -1,0 +1,22 @@
+OS separates processes memory space by separating out their address space for each processes.
+Process has single line of execution whereas threads have multiple.
+Threads get their own unique stack ---- allocaoted on the processes heap. --shread address space, share code, global vars, code etc
+
+pthread_join() --- thread will exit / vanish whenever the process owning it completes running or exits
+
+we do not get parallel execution with threads when we just do pthread_create() and pthread_join() .... where pthread_t tid[x] and x is an int
+
+
+
+it is tottally up to the OS to determine the thread of execution could be 2nd ebfore the 7th, order could be 2 ,1 5, 98
+
+if you are passing something to thread pass it by value ..... pointers results in shared error of memory
+
+
+char token[];
+
+token = strtok(str ,  " " );
+print(str)
+token = strtok(NULL, "" );
+print(str)
+a preemptive resource is one, such as the CPU or memory, that an operating system can take away from a running process and give to another, higher-priority process without causing the first process to crash or malfunction

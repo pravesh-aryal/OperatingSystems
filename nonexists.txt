@@ -1,0 +1,12 @@
+a.out
+buffer.c
+common.h
+exec.c
+execl.c
+fork.c
+mem.c
+nonexists.txt
+notes
+snippets.c
+test.c
+zombie.c
